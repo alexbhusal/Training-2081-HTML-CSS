@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin: 100px; 
+}
+.box:hover> :not(:hover){
+    filter: blur(2px);
+    opacity: 0.6;
+}
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 400px;
+}
+.box2{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+.box3{
+    background-color: aqua;
+    height: 100px;
+    width: 400px;
+}

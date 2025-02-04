@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 10px;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .calculator{
+            /* height: 50%;
+            width: 50%; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 6px;
+            border-radius: 2px;
+            background-color: yellow;
+            box-shadow:  inset 0px 2px 10px black;
+
+        }
+        .digit{
+            height: 10px;
+            width: 10px;
+            padding: 5px;
+            margin-bottom: 2px;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightblue;
+            box-shadow: inset 0px 0px 5px black;
+        }
+        .row2{
+            display: flex;
+            gap: 5px;
+        }
+        .equal_to{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+            background-color: red;
+            color: white;
+        }
+        input{
+            width: 95px;
+            margin-bottom: 10px;
+        }
+        #equak{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div class="input">
+                <input type="number" name="input" id="value">
+            </div>
+            <div class="buttons">
+                <div class="row2">
+                    <div class="digit">7</div>
+                    <div class="digit">8</div>
+                    <div class="digit">9</div>
+                    <div class="digit">/</div>
+                </div>
+                <div class="row2">
+                    <div class="digit">4</div>
+                    <div class="digit">5</div>
+                    <div class="digit">6</div>
+                    <div class="digit">*</div>
+                </div>
+                <div class="row2">
+                    <div class="digit">1</div>
+                    <div class="digit">2</div>
+                    <div class="digit">3</div>
+                    <div class="digit">-</div>
+                </div>
+                <div class="row2">
+                    <div class="digit">.</div>
+                    <div class="digit">0</div>
+                    <div class="digit">+</div>
+                    <div class="digit" id="equak">C</div>
+                </div>
+
+                <div class="equal_to">=</div>
+            </div>
+        </div>
+    </div>
+    <i class="fa-solid fa-graduation-cap fa-beat-fade"></i>
+</body>
+</html>

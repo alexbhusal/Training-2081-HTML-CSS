@@ -1,0 +1,16 @@
+p{
+    font-size: larger;
+}
+body{
+        background-image: url("./DB.png");
+    background-size: cover;
+    }
+.formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 200px;
+    border: 10px solid red;
+    backdrop-filter: blur(2px);
+}

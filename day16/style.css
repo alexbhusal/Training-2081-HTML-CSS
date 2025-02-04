@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container > div {
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    color: white;
+}
+
+.header {
+    background-color: blue;
+    height: 70px;
+}
+
+.left {
+    flex-basis: 50%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right {
+    flex-basis: 50%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar {
+    background-color: greenyellow;
+    height: 130px;
+    width: 100%;
+}
+
+.main {
+    background-color: yellow;
+    height: 150px;
+}
+
+.extra {
+    background-color: gray;
+    height: 80px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.images {
+    width: 70%;
+    height: 80px;
+    background-color: green;
+}
+
+.post {
+    width: 30%;
+    height: 80px;
+    background-color: pink;
+}
+
+.footer {
+    background-color: orange;
+    height: 80px;
+    margin-top: 10px;
+}
+
