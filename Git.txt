@@ -1,0 +1,50 @@
+------------------------------------------------------------------------------------
+-------------------------------For Existing github Repo------------------------------------------
+------------------------------------------------------------------------------------
+pwd              #To check the current work directory
+cd Desktop       #Change directory to your desired location (e.g., Desktop,Downloads)
+
+git clone git@github.com:<YourUsername>/<RepoName>.git       # Replace with your actual GitHub repository URL
+
+code cloned@Repo         # To open the directory in vsCode
+
+<><><><><><><><><><><><><><><>#Changes#</></></></></></></></></></></></></>
+git add .      # Stage all changes for commit
+
+git status     # Check the changes you've made
+
+git commit -m "Your commit message"       # Commit your changes with a message
+
+git push         # Push changes to the remote repository
+
+
+
+------------------------------------------------------------------------------------
+-------------------------------For New Repo------------------------------------------
+------------------------------------------------------------------------------------
+
+mkdir <FolderName>      # Replace <FolderName> with your desired folder name
+
+cd <FolderName>         # Change directory into your new folder
+
+git init                # Initialize a new git repository
+
+<><><><><><><><><><><><><><><>#Changes#</></></></></></></></></></></></></>
+
+echo "# My New Repo" > README.md        # Create a README file
+
+git add .           # Stage all files for commit
+
+git status          # Check the status of your files
+
+git commit -m "Initial commit"          # Commit with a message
+
+git remote add origin git@github.com:<YourUsername>/<RepoName>.git         # Replace with your actual GitHub repository URL
+
+git push -u origin main         # Push to the remote repository
+
+
+
+
+
+
