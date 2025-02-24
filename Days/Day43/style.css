@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xxx-large;
+    color: #333;
+}
+p{
+    font-size: xx-large;
+    color: aquamarine;
+}
+
+.box{
+    display: flex;
+}
+.box1,.box2,.box3{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid #333;
+}
+
+
+
+
+
