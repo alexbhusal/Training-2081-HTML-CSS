@@ -1,0 +1,25 @@
+
+
+body{
+    background-image: url(./img1.webp);
+    height: auto;
+    width: 100%;
+}
+img{
+    height: 500px;
+    width: 700px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.text2{
+    visibility: hidden;
+}

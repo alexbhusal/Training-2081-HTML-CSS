@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+   body{
+      background-image: url(./img2.webp);
+   }
+  
+   .nav{
+    visibility: hidden;
+   }
+   .text2{
+    visibility: visible;
+   }
+   .text1{
+    visibility: hidden;
+   }
+
+}
